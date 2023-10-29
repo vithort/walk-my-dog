@@ -29,3 +29,29 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 # Reference
 
 [Angular Example: walk-my-dog](https://github.com/angular/examples/tree/main/walk-my-dog)
+
+# Creating Project
+
+```js
+ng new walk-my-dog --inline-style --inline-template
+```
+
+# Creating Service
+
+```js
+ng g service dogs --flat
+```
+
+# Creating Components
+
+```js
+ng g c dogs-list --flat --inline-template --inline-style
+```
+
+```js
+ng g c dogs-list-card --flat --inline-template --inline-style
+```
+
+```js
+ng g c dog-view --flat --inline-template --inline-style
+```
